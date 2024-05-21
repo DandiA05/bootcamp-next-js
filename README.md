@@ -34,3 +34,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+<!-- Idea Global State Management -->
+
+App => Memuat si storage
+Container => Bagian terluar dari aplikasi
+Container memberikan akses ke store / state management
+Sehingga Apapun, asalkan didalam container akan dapat mengakses state management.

@@ -1,6 +1,7 @@
 "use client";
 import Button from "../../components/Button";
 import React, { useState, useEffect, useMemo } from "react";
+// Disini jadi bisa panggil userReducer dan gunakan datanya
 const Profile = () => {
   const [counter, setCounter] = useState(0);
   const [num1, setNum1] = useState(0);
