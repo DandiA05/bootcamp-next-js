@@ -3,8 +3,16 @@ import ButtonKita from "@/components/Button";
 import { useEffect, useState } from "react";
 import Button from "@mui/material/Button";
 import DeleteIcon from "@mui/icons-material/Delete";
+import { useSelector } from "react-redux";
 
 const ToDo = () => {
+  const userReducer = useSelector((state) => state.userReducer);
+  useEffect(() => {
+    if (userReducer) {
+      console.log("User Data:", userReducer);
+    }
+  }, [userReducer]);
+
   const [activity, setActivty] = useState("");
   const [deskirpsi, setDeskripsi] = useState("");
   const [toDoList, setToDoList] = useState([]);
