@@ -24,6 +24,9 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb)); */
+  margin: 16px;
+  padding: 16px;
+  font-family: "Ubuntu", sans-serif;
 }
 
 @layer utilities {
