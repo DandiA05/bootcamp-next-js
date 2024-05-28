@@ -9,7 +9,7 @@ const Button = ({ title, onClick = () => {}, type }) => {
       className="bg-[#FF5733] text-white
   text-center px-6 py-4"
     >
-      {title}
+      {title} Button
     </button>
   );
 };
